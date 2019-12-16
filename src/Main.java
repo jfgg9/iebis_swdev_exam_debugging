@@ -13,22 +13,22 @@ public class Main {
         switch (random.nextInt(3)) {
             case 0:
                 System.out.println("first");
-                word = new StringBuffer('Y');
-                word.append('Y');
+                word = new StringBuffer("Y");
+                //word.append('Y');
                 break;
             case 1:
                 System.out.println("second");
-                word = new StringBuffer('F');
+                word = new StringBuffer("F");
                 break;
             case 2:
                 System.out.println("third");
-                word = new StringBuffer('T');
+                word = new StringBuffer("T");
                 break;
         }
 
-        word.append('o');
-        word.append('u');
-        word.append('r');
+        word.append("o");
+        word.append("u");
+        word.append("r");
 
         System.out.println(word + " " + formattedEmailAddress);
     }

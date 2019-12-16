@@ -48,3 +48,12 @@ Scoring criteria:
 - 60%: Spot all the bugs
 - 20%: Fix all the bugs and push the proposed solution to your repository online
 - 20%: Explain the solved exercise in the README, in the best possible way
+
+##Solution
+###1st bug: 
+Replace the "." with "\\."
+###2nd bug:
+Change the 2 in the switch so that it includes the third option too. 
+###3rd bug:
+Add break statements so that it does not go to the last one after starting, so if it starts on the first it repeats until it is on the last. 
+###4th bug:
